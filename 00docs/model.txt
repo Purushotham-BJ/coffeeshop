@@ -1,0 +1,14 @@
+Coffee Shop Management
+    Admin Application 
+        -Shop Management
+            -add order
+            -edit order
+            -display order
+            -delete order
+
+            Coffee -- collection
+                id -- fields
+                category -- fields
+                type -- fields
+                price -- fields
+                suger -- fields
