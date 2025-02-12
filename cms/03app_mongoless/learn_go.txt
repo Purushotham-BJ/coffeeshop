@@ -1,0 +1,28 @@
+package main
+import(
+	"fmt"
+)
+type Flight struct {
+	Id int
+	FlightNumber string
+	AirwayName string
+	Source string
+	Destination string
+	Capacity string
+	Price string
+
+}
+
+func main() {
+	 var Flights[] Flight  =[] Flight{{ Id: 201,FlightNumber:"AU123",AirwayName:"AIRINDIA",Source:"Bengluru",Destination:"Delhi",Capacity:"250",Price:"12000"},
+	 { Id: 202,FlightNumber:"AU123",AirwayName:"AIRINDIA",Source:"Bengluru",Destination:"Delhi",Capacity:"250",Price:"12000"},}
+
+	fmt.Println(Flights)
+	fmt.Println("Hello World")
+	first := 10
+	second := 20
+	sum := first + second
+	fmt.Println("Sum of", first, "and", second, "is",sum)
+	var salaries[] float32 = []float32{1000.0, 2000.0, 3000.0, 4000.0}
+	fmt.Println("Salaries are", salaries)
+}
